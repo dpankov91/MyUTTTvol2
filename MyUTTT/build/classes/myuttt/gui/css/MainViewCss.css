@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 3, 2020, 10:22:44 AM
+    Author     : dpank
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+.mainPane
+{
+   -fx-background-color: #FF8A85;
+   -fx-border-color: #522E2A;
+}
+
+.HeadFont
+{
+    -fx-font-size: 33px;
+    -fx-font-family: 'Lacquer';
+    -fx-text-fill: #5E3531;
+}
+
+.mainButton
+{
+     -fx-background-color: #9BD615;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-background-radius: 8px;
+    -fx-border-radius: 8px;
+    -fx-border-color: #522E2A;
+}
+
+.cmbMain{
+    -fx-background-color: #D8FBFD;
+    -fx-font-size: 14px;
+    -fx-background-radius: 4px;
+    -fx-border-radius: 4px;
+}
+
+.mainButton:selected{
+    -fx-background-color: #58D601;
+}
+
+.gameCell{
+    -fx-font-size: 14px;
+    -fx-text-fill: white;
+    -jfx-button-type: RAISED;
+    -fx-background-color: #9BD615;
+    -fx-pref-width: 100%;
+    -fx-pref-height: 100%;
+    -fx-alignment: CENTER;
+}
